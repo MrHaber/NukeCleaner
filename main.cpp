@@ -1425,14 +1425,12 @@ int main()
 	DeleteFileW(L"F:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Microsoft\\XboxLive\\AuthStateCache.dat");
 	clean_launcher();
 
-	clean_anticheat();
-
 
 	cout << "[+] System clean" << endl;
 	cout << " " << endl;
 
 	cout << "[+] Modifying Regedit..." << endl;
-
+	clean_anticheat();
 	cout << "[+] Modified Regedit" << endl;
 	cout << " " << endl;
 
